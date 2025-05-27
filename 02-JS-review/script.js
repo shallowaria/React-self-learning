@@ -66,7 +66,7 @@ const data = [
     publicationDate: "1965-01-01",
     author: "Frank Herbert",
     genres: ["science fiction", "novel", "adventure"],
-    hasMovieAdaptation: true,
+    hasMovieAdaptation: false,
     pages: 658,
     translations: {
       spanish: "",
@@ -241,7 +241,7 @@ function getTotalReviewCount(book) {
 
 const books = getBooks();
 books;
-// map:在原数组基础上创建一个新数据并对每个元素应用一些操作
+// *map:遍历后返回需要的值
 const x = [1, 2, 3, 4, 5].map((el) => el * 2);
 console.log(x);
 
@@ -256,4 +256,26 @@ const essentialData = books.map((book) => ({
 }));
 essentialData;
 
-//filter
+// *filter：遍历后返回为true的值
+const longBooksWithMovie = books
+  .filter((book) => book.pages > 500)
+  .filter((book) => book.hasMovieAdaptation);
+longBooksWithMovie;
+
+const adventureBooks = books
+  .filter((book) => book.genres.includes("adventure"))
+  .map((book) => book.title);
+adventureBooks;
+
+// reduce:累加
+const pagesAllBooks = books.reduce((sum, book) => sum + book.pages, 0);
+pagesAllBooks;
+
+// sort ab为n和n+1 a-b升序 b-a降序,变异方法，会改变原数组,别的函数方法不会改变原数组,配合slice()使用
+const arr = [3, 7, 1, 9, 6];
+const sorted = arr.slice().sort((a, b) => b - a);
+sorted;
+arr;
+
+const sortedByPages = books.slice().sort((a, b) => a.pages - b.pages);
+sortedByPages;
