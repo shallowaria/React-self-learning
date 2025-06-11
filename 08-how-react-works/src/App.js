@@ -14,7 +14,7 @@ const content = [
   {
     summary: "We can think of props as the component API",
     details:
-      "As we can see:Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
   },
 ];
 
@@ -25,6 +25,9 @@ export default function App() {
     </div>
   );
 }
+
+console.log(<DifferentContent test={23} />);
+// Wrong:console.log(DifferentContent());
 
 function Tabbed({ content }) {
   const [activeTab, setActiveTab] = useState(0);
