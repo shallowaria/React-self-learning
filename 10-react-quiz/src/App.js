@@ -9,10 +9,7 @@ export default function App() {
       <Main>
         <p>1/15</p>
         <p>Question?</p>
-        <section>
-          <option value={go}></option>
-        </section>
-        <p>Let it go</p>
+        <p>Json Server</p>
       </Main>
     </div>
   );
