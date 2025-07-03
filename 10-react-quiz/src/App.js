@@ -47,6 +47,7 @@ export default function App() {
       <Header />
 
       <Main>
+        <p>review</p>
         {status === "loading" && <Loader />}
         {status === "error" && <Error />}
         {status === "ready" && <StartScreen numQuestions={numQuestions} />}
