@@ -35,66 +35,6 @@
         "lng": 13.376933665713324
       },
       "id": "98443197"
-    },
-    {
-      "id": "0972",
-      "cityName": "Matlab Uttar Upazila",
-      "country": "Bangladesh",
-      "emoji": "🇧🇩",
-      "date": "2025-08-27T09:40:12.678Z",
-      "notes": "",
-      "position": {
-        "lat": "23.448237670187684",
-        "lng": "90.66059251850608"
-      }
-    },
-    {
-      "id": "f6a7",
-      "cityName": "Tianshui",
-      "country": "China",
-      "emoji": "🇨🇳",
-      "date": "2025-08-27T09:44:58.223Z",
-      "notes": "",
-      "position": {
-        "lat": "34.7238989243487",
-        "lng": "105.14060851558187"
-      }
-    },
-    {
-      "id": "f0a6",
-      "cityName": "Baiyin",
-      "country": "China",
-      "emoji": "🇨🇳",
-      "date": "2025-08-27T09:52:22.413Z",
-      "notes": "",
-      "position": {
-        "lat": "36.6520636517067",
-        "lng": "103.95361876880537"
-      }
-    },
-    {
-      "id": "afe6",
-      "cityName": "Jingzhou",
-      "country": "China",
-      "emoji": "🇨🇳",
-      "date": "2025-08-27T09:52:22.413Z",
-      "notes": "123",
-      "position": {
-        "lat": "30.33942209027666",
-        "lng": "111.93154046049855"
-      }
-    },
-    {
-      "id": "591b",
-      "cityName": "Qiannan Bouyeizu Miaozu Zizhizhou",
-      "country": "China",
-      "emoji": "🇨🇳",
-      "date": "2025-08-27T09:57:12.040Z",
-      "notes": "hello",
-      "position": {
-        "lat": "26.236961032108734",
-        "lng": "106.65628657484048"
-      }
     }
   ]
 }
