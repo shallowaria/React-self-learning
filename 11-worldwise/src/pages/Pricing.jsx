@@ -11,13 +11,9 @@ export default function Product() {
           <h2>
             Simple pricing.
             <br />
-            Just $9/month.
+            Just 20￥/month.
           </h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae vel
-            labore mollitia iusto. Recusandae quos provident, laboriosam fugit
-            voluptatem iste.
-          </p>
+          <p>诚挚欢迎您的到来！</p>
         </div>
         <img src="img-2.jpg" alt="overview of a large city with skyscrapers" />
       </section>

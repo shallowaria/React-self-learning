@@ -13,15 +13,25 @@ export default function Product() {
         <div>
           <h2>About WorldWide.</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo est
-            dicta illum vero culpa cum quaerat architecto sapiente eius non
-            soluta, molestiae nihil laborum, placeat debitis, laboriosam at fuga
-            perspiciatis?
+            WorldWide 是一款使用了React + Hooks + Context API +
+            Reducer、CSS模块化、 React Router的SPA项目
           </p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            doloribus libero sunt expedita ratione iusto, magni, id sapiente
-            sequi officiis et.
+            <li>
+              支持 <b>动态添加城市</b>（通过地图点击或表单）
+            </li>
+            <li>
+              使用 <b>日期选择器</b>(react-datepicker)和笔记字段管理城市信息
+            </li>
+            <li>可展示每个城市的国家旗帜(在Win上有和谐)</li>
+            <li>
+              有 <b>加载状态</b> 和 <b>错误处理</b>(Spinner + Message)
+            </li>
+            <li>
+              使用 <b>useReducer</b> + <b>Context API</b>
+              管理城市列表、当前城市和加载状态,便于未来扩展.
+            </li>
+            <li>使用 useCallback 修复getCity函数的无限请求问题.</li>
           </p>
         </div>
       </section>
