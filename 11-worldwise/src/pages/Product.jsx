@@ -32,6 +32,7 @@ export default function Product() {
               管理城市列表、当前城市和加载状态,便于未来扩展.
             </li>
             <li>使用 useCallback 修复getCity函数的无限请求问题.</li>
+            <li>使用 lazy 将包分成多个块加载</li>
           </p>
         </div>
       </section>
