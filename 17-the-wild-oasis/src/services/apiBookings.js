@@ -12,6 +12,7 @@ export async function getBookings({ filter, sortBy }) {
   if (filter) query = query[filter.method || "eq"](filter.field, filter.value);
 
   if (sortBy)
+    // order() = 在 数据库里排序 sort() = 在 前端排序
     query = query.order(sortBy.field, {
       ascending: sortBy.direction === "asc",
     });
