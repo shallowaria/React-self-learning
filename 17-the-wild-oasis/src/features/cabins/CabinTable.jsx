@@ -30,6 +30,7 @@ function CabinTable() {
   const modifier = direction === "asc" ? 1 : -1;
   const sortedCabins = filteredCabins.sort((a, b) => {
     if (typeof a[field] === "string") {
+      //比较字符串的方法，返回 -1 / 0 / 1
       return a[field].localeCompare(b[field]) * modifier;
     } else {
       return (a[field] - b[field]) * modifier;

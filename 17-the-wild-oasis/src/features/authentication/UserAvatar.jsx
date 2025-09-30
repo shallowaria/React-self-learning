@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { useUser } from "./useUser";
-import { SiStyledcomponents } from "react-icons/si";
 
 const StyledUserAvatar = styled.div`
   display: flex;
