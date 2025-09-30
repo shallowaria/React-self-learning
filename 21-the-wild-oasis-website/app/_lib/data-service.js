@@ -34,6 +34,8 @@ export async function getCabinPrice(id) {
   return data;
 }
 
+// export const getCabins = async () => {
+// }
 export const getCabins = async function () {
   const { data, error } = await supabase
     .from("cabins")
