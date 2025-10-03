@@ -88,8 +88,9 @@ export async function getBookings(guestId) {
     .select(
       "id, created_at, startDate, endDate, numNights, numGuests, totalPrice, guestId, cabinId, cabins(name, image)"
     )
-    .eq("guestId", guestId)
-    .order("startDate");
+    // .eq("guestId", guestId)
+    // .order("startDate");
+    .in("guestId", [3, 5, 12]);
 
   if (error) {
     console.error(error);
